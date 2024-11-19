@@ -105,9 +105,7 @@ nav,
 section {
   display: block;
 }
-body {
-  line-height: 1;
-}
+
 ol,
 ul {
   list-style: none;
@@ -147,7 +145,10 @@ html {
 }
 
 img,
-picture {
+picture,
+video,
+canvas,
+svg {
   max-width: 100%;
   display: block;
 }
@@ -163,6 +164,10 @@ p,
 li,
 figcaption {
   text-wrap: pretty;
+}
+
+body {
+  line-height: 1.5;
 }
 
 @media (prefers-reduced-motion: no-preference) {
